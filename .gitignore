@@ -14,3 +14,4 @@ themes/*
 !themes/inhabitent/
 # Ignore packages #
 themes/inhabitent/node_modules/
+themes/inhabitent/package-lock.json
