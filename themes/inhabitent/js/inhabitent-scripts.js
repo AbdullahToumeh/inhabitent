@@ -4,7 +4,6 @@
 
  
 
-$('body').append('hello');
 
 
 

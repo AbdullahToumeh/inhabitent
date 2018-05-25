@@ -225,6 +225,54 @@ th {
 /*--------------------------------------------------------------
 # Embedded Fonts
 --------------------------------------------------------------*/
+/*
+* Merriweather
+*/
+@font-face {
+  font-family: 'Merriweather';
+  src: url("Merriweather-BoldItalic.eot");
+  src: url("Merriweather-BoldItalic.eot?#iefix") format("embedded-opentype"), url("Merriweather-BoldItalic.woff2") format("woff2"), url("Merriweather-BoldItalic.woff") format("woff"), url("Merriweather-BoldItalic.ttf") format("truetype"), url("Merriweather-BoldItalic.svg#Merriweather-BoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url("Merriweather-LightItalic.eot");
+  src: url("Merriweather-LightItalic.eot?#iefix") format("embedded-opentype"), url("Merriweather-LightItalic.woff2") format("woff2"), url("Merriweather-LightItalic.woff") format("woff"), url("Merriweather-LightItalic.ttf") format("truetype"), url("Merriweather-LightItalic.svg#Merriweather-LightItalic") format("svg");
+  font-weight: 300;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url("Merriweather-Light.eot");
+  src: url("Merriweather-Light.eot?#iefix") format("embedded-opentype"), url("Merriweather-Light.woff2") format("woff2"), url("Merriweather-Light.woff") format("woff"), url("Merriweather-Light.ttf") format("truetype"), url("Merriweather-Light.svg#Merriweather-Light") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url("Merriweather-Bold.eot");
+  src: url("Merriweather-Bold.eot?#iefix") format("embedded-opentype"), url("Merriweather-Bold.woff2") format("woff2"), url("Merriweather-Bold.woff") format("woff"), url("Merriweather-Bold.ttf") format("truetype"), url("Merriweather-Bold.svg#Merriweather-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+/*
+* Novecentos
+*/
+@font-face {
+  font-family: 'Novecentos';
+  src: url("Novecentos-Normal.eot");
+  src: url("Novecentos-Normal.eot?#iefix") format("embedded-opentype"), url("Novecentos-Normal.woff2") format("woff2"), url("Novecentos-Normal.woff") format("woff"), url("Novecentos-Normal.ttf") format("truetype"), url("Novecentos-Normal.svg#.") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Novecentos';
+  src: url("Novecentos-DemiBold.eot");
+  src: url("Novecentos-DemiBold.eot?#iefix") format("embedded-opentype"), url("Novecentos-DemiBold.woff2") format("woff2"), url("Novecentos-DemiBold.woff") format("woff"), url("Novecentos-DemiBold.ttf") format("truetype"), url("Novecentos-DemiBold.svg#.") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -666,3 +714,417 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+body {
+  font-family: "Merriweather", serif;
+  line-height: 1.75;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+  color: #404040;
+  font-size: 16px; }
+
+.site-footer {
+  background: url(../../assets/images/dark-wood.png);
+  color: white; }
+
+.footer-blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.logofooter {
+  color: white; }
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1120px; }
+
+.footer-block h3 {
+  color: #d99054;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem; }
+
+h3 {
+  font-family: "Novecentos", sans-serif;
+  letter-spacing: 2px; }
+
+.footer-block {
+  margin: 3rem 0;
+  width: 25%; }
+
+.footer-block i {
+  margin-right: 0.5rem;
+  font-size: 1.25rem; }
+
+.site-footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.25rem; }
+
+.footer-blocks p {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem; }
+
+.days {
+  font-weight: 700; }
+
+.logo-footer {
+  text-align: right; }
+
+.footer-block:last-child {
+  width: 50%;
+  padding-top: 1.5rem; }
+
+footer img {
+  max-width: 50%; }
+
+.copy-right {
+  text-transform: uppercase;
+  font-family: "Novecentos", sans-serif;
+  text-align: center;
+  position: relative;
+  bottom: 1.5rem; }
+
+.site-header {
+  position: fixed;
+  padding: 0.5rem;
+  width: 100%; }
+
+.site-header a {
+  color: white; }
+
+.site-header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.site-branding img {
+  height: 2rem; }
+
+.home-hero {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../../assets/images/home-hero.jpg);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)), url(../../assets/images/home-hero.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  margin-bottom: 4.5rem; }
+
+.main-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Novecentos", sans-serif;
+  text-transform: uppercase;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: auto; }
+
+.main-navigation li {
+  padding-left: 1.5em; }
+
+fieldset {
+  border: none; }
+
+label {
+  display: none; }
+
+.header-search {
+  padding-left: 1.5rem;
+  padding-top: 0.25rem; }
+
+h2 {
+  font-weight: 400;
+  text-align: center;
+  font-family: "Novecentos", sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  margin-bottom: 3.75rem; }
+
+.products-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.product-wrapper {
+  border: 1px solid #e1e1e1;
+  border-top-width: 5px;
+  max-width: 23%;
+  padding: 0.75rem;
+  font-size: 1.2rem; }
+
+.products-wrapper img {
+  height: 70px;
+  width: 70px; }
+
+.stuff-button {
+  background: #248A83;
+  text-decoration: none;
+  color: white;
+  font-family: "Novecentos", sans-serif;
+  padding: 0.75rem 1.5rem;
+  text-transform: uppercase;
+  font-size: 1rem; }
+
+a:visited {
+  color: none; }
+
+.products, .last-journal {
+  margin-bottom: 4.5rem; }
+
+.last-journal ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.last-journal li {
+  border: 1px solid #e1e1e1;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 32%;
+          flex: 0 1 32%;
+  position: relative;
+  padding-bottom: 3rem; }
+
+.last-journal img {
+  max-height: 250px;
+  position: absolute;
+  width: auto;
+  max-width: none;
+  bottom: 2%; }
+
+.last-journal .journal-button {
+  border: 1px solid black;
+  color: black;
+  position: absolute;
+  background-color: transparent;
+  font-family: "Novecentos", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.5rem 1.1rem;
+  font-size: 0.9rem;
+  bottom: 0.8rem;
+  left: 0.7rem; }
+
+.small-photo-wrapper {
+  background-color: #e1e1e1;
+  height: 250px;
+  overflow: hidden;
+  position: relative; }
+
+.small-post-wrapper {
+  padding: 0.75rem; }
+
+.post-title a {
+  color: #248A83;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  line-height: 0; }
+
+.posted-date {
+  margin: 0;
+  font-family: "Merriweather", serif; }
+
+.post-title {
+  margin-top: 0;
+  line-height: normal; }
+
+.adventures ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 2fr;
+  grid-gap: 20px 20px;
+  margin-left: 0;
+  padding-left: 0;
+  height: 66vh; }
+
+.adventures li:first-child {
+  grid-column: 1 / 3;
+  grid-row: 1/3; }
+  .adventures li:first-child img {
+    max-height: 620px;
+    max-width: none;
+    position: absolute;
+    right: -36%;
+    bottom: -5%; }
+  .adventures li:first-child h3 {
+    font-size: 3rem;
+    font-weight: 100;
+    z-index: 2;
+    line-height: 1;
+    padding: 0;
+    margin-top: 1rem; }
+
+.adventures li:nth-child(2) {
+  grid-column: 3 / 5;
+  grid-row: 1 / 2; }
+  .adventures li:nth-child(2) img {
+    max-height: 620px;
+    position: absolute;
+    bottom: -5%; }
+  .adventures li:nth-child(2) h3 {
+    font-size: 2.5rem;
+    font-weight: 100;
+    z-index: 2;
+    line-height: 1;
+    padding: 0;
+    margin-top: 1rem; }
+
+.adventures li:nth-child(3) {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3; }
+  .adventures li:nth-child(3) img {
+    max-height: 620px;
+    position: absolute;
+    max-width: 620px;
+    bottom: -10%;
+    right: -66%; }
+  .adventures li:nth-child(3) h3 {
+    font-size: 2rem;
+    font-weight: 100;
+    z-index: 2;
+    line-height: 1;
+    padding: -10%;
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
+
+.adventures li:last-child {
+  grid-column: 4 / 5;
+  grid-row: 2 / 3; }
+  .adventures li:last-child img {
+    max-height: 620px;
+    position: absolute;
+    max-width: 620px;
+    bottom: -10%;
+    right: -66%; }
+  .adventures li:last-child h3 {
+    font-size: 1.8rem;
+    font-weight: 100;
+    z-index: 2;
+    line-height: 1;
+    margin-top: 1rem; }
+
+.adventures li {
+  position: relative;
+  overflow: hidden; }
+
+.adventure-wrapper:after {
+  background: rgba(0, 0, 0, 0.4);
+  content: "";
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 100%; }
+
+.adventure-text {
+  position: absolute;
+  z-index: 2;
+  padding: 2rem; }
+
+.adventure-text h3 {
+  font-family: "Merriweather", serif;
+  text-decoration: none;
+  font-size: 2rem; }
+
+.adventure-text a {
+  text-decoration: none;
+  color: white; }
+
+.adventure-button {
+  border: 1px solid white;
+  color: black;
+  background-color: transparent;
+  font-family: "Novecentos", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.7rem 1.3rem;
+  font-size: 0.9rem; }
+
+.more-button {
+  background: #248A83;
+  text-decoration: none;
+  color: white;
+  font-family: "Novecentos", sans-serif;
+  padding: 0.75rem 1.5rem;
+  text-transform: uppercase;
+  font-size: 1rem; }
+
+.more {
+  margin-bottom: 4rem;
+  margin-top: 2rem; }
+
+.more a:visited {
+  color: white; }
+
+.entry-header {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.entry-header h1 {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Novecentos", sans-serif;
+  font-size: 3rem; }
+
+.entry-content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 785px;
+  margin-bottom: 60px; }
+
+.entry-content p {
+  font-size: 1.2rem; }
+
+.entry-content h2 {
+  color: #2f1339;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px; }
