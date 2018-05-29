@@ -24,7 +24,8 @@
 			<header id="masthead" class="site-header" role="banner">
 				<div class="container">
 					<div class="site-branding">
-						<a href="http://localhost:3000/inhabitent/"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/inhabitent-logo-tent-white.svg" alt="Inhabitent Hero Logo"/></a>
+						<a href="http://localhost:3000/inhabitent/"><h1 class="home-logo"></h1>
+						</a>
 						<h1 class="site-title screen-reader-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 					</div><!-- .site-branding -->
 				
@@ -35,17 +36,10 @@
 						</div>
 
 						<div class="header-search">
-							<form action="get" class="search-form">
-								<fieldset disabled="disabled">
-									<a href="#" class="search-link">
-										<i class="fas fa-search"></i>
-									</a>
-									<label for="search">
-										<input type="search" class="search-input">
-									</label>
-								</fieldset>	
-							</form>
+							<!-- Load searchform.php -->
+							<?php get_search_form(); ?>
 						</div>
+						
 					</nav><!-- #site-navigation -->
 
 
@@ -54,3 +48,5 @@
 			</header><!-- #masthead -->
 
 			<div id="content" class="site-content">
+
+<!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/inhabitent-logo-tent-white.svg" alt="Inhabitent Hero Logo"/> -->

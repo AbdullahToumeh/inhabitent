@@ -852,12 +852,34 @@ footer img {
 fieldset {
   border: none; }
 
-label {
-  display: none; }
+.search-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
 
-.header-search {
-  padding-left: 1.5rem;
-  padding-top: 0.25rem; }
+.search-submit:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none; }
+
+.search-submit:focus {
+  border: none; }
+
+input[type=search] {
+  background: transparent;
+  border: 0; }
+
+input[type=search]:focus {
+  border: none; }
+
+.search-submit {
+  border: none;
+  background: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: white;
+  font-size: 1rem;
+  padding: 0;
+  padding-left: 1rem; }
 
 h2 {
   font-weight: 400;
@@ -891,14 +913,15 @@ h2 {
 .stuff-button {
   background: #248A83;
   text-decoration: none;
-  color: white;
   font-family: "Novecentos", sans-serif;
   padding: 0.75rem 1.5rem;
   text-transform: uppercase;
   font-size: 1rem; }
+  .stuff-button a {
+    color: white; }
 
 a:visited {
-  color: none; }
+  color: white; }
 
 .products, .last-journal {
   margin-bottom: 4.5rem; }
@@ -961,6 +984,9 @@ a:visited {
 .posted-date {
   margin: 0;
   font-family: "Merriweather", serif; }
+
+.search-field {
+  display: none; }
 
 .post-title {
   margin-top: 0;
@@ -1096,6 +1122,13 @@ a:visited {
 .more a:visited {
   color: white; }
 
+.site-branding h1 {
+  background: url(../../assets/images/logos/inhabitent-logo-tent-white.svg) no-repeat;
+  background-size: 50px 33px;
+  height: 33px;
+  width: 50px;
+  margin: 0; }
+
 .entry-header {
   height: 100vh;
   display: -webkit-box;
@@ -1128,3 +1161,737 @@ a:visited {
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 20px; }
+
+.widget-title {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #404040;
+  font-weight: 600;
+  text-align: start; }
+
+.widget-area {
+  padding-top: 2rem;
+  padding-left: 3.5rem; }
+
+.widget-area a {
+  color: #248a83;
+  text-decoration: none;
+  font-size: 1.2rem; }
+
+.contact i {
+  padding-right: .5rem; }
+
+.widget_archive ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0; }
+
+.day-of-week {
+  font-weight: bold; }
+
+aside {
+  font-size: 1.15rem; }
+
+.page-id-40 .day-of-week {
+  font-weight: bold; }
+
+.page-id-40 h1.entry-title {
+  color: #404040; }
+
+.page-id-40 .entry-header {
+  height: auto; }
+
+.page-id-40 .search-submit {
+  color: #248A83; }
+
+.page-id-40 .site-branding h1 {
+  background: url(../../assets/images/logos/inhabitent-logo-tent.svg) no-repeat;
+  background-size: 50px 33px;
+  height: 33px;
+  width: 50px;
+  margin: 0; }
+
+.page-id-40 .site-header a {
+  color: #248A83; }
+
+.page-id-40 .site-header {
+  border-bottom: 1px solid #e1e1e1; }
+
+.page-id-40 .site-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1120px;
+  padding-top: 4rem; }
+
+.page-id-40 header {
+  padding-bottom: 0; }
+
+.page-id-40 .entry-header {
+  height: 2rem;
+  position: relative;
+  left: -40%; }
+
+.page-id-40 .entry-header h1 {
+  font-size: 2.5rem; }
+
+.page-id-40 #primary {
+  width: 75%;
+  border-right: 1px solid #e1e1e1;
+  padding-right: 2rem;
+  padding-top: 3rem; }
+  .page-id-40 #primary h2 {
+    text-align: start; }
+
+.page-id-40 .wpcf7-submit {
+  background: #248A83;
+  text-decoration: none;
+  color: white;
+  font-family: "Novecentos", sans-serif;
+  padding: 0.75rem 1.5rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  border-radius: 0;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-shadow: none; }
+
+.blog a {
+  text-decoration: none; }
+
+.blog .site-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1120px;
+  padding-top: 3.1rem; }
+
+.blog .site-branding h1 {
+  background: url(../../assets/images/logos/inhabitent-logo-tent.svg) no-repeat;
+  background-size: 50px 33px;
+  height: 33px;
+  width: 50px;
+  margin: 0; }
+
+.blog .site-header a {
+  color: #248A83; }
+
+.blog .site-header {
+  border-bottom: 1px solid #e1e1e1; }
+
+.blog #primary {
+  width: 73%;
+  border-right: 1px solid #e1e1e1;
+  padding-top: 3rem; }
+
+.blog .site-main {
+  width: 95%; }
+
+.blog .search-submit {
+  color: #248A83; }
+
+.blog .read-more {
+  border: 1px solid black;
+  color: black;
+  background-color: transparent;
+  font-family: "Novecentos", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.8rem 1.1rem;
+  font-size: 0.9rem; }
+
+.blog .entry-title {
+  background-color: #248A83;
+  position: absolute;
+  left: 0;
+  top: 10px;
+  padding: 1rem 0;
+  font-weight: 550;
+  max-width: 36rem;
+  text-align: start;
+  line-height: 2.5rem;
+  font-size: 2.1rem;
+  padding-right: 3rem; }
+
+.blog .entry-meta {
+  background-color: #248A83;
+  color: white;
+  font-family: "Novecentos", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0rem 1.5rem; }
+
+.blog .entry-title a {
+  position: relative;
+  left: 1rem; }
+
+.blog .entry-header {
+  position: relative;
+  width: 48rem;
+  height: auto; }
+
+.blog .entry-title a {
+  color: white; }
+
+.blog .entry-header img {
+  width: 48rem;
+  height: auto; }
+
+.blog .entry-content {
+  width: auto; }
+
+.blog .entry-content p {
+  font-size: 1.2rem; }
+
+.single-post .site-branding h1 {
+  background: url(../../assets/images/logos/inhabitent-logo-tent.svg) no-repeat;
+  background-size: 50px 33px;
+  height: 33px;
+  width: 50px;
+  margin: 0; }
+
+.single-post .site-header a {
+  color: #248A83; }
+
+.single-post .site-header {
+  border-bottom: 1px solid #e1e1e1; }
+
+.single-post .site-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1120px;
+  padding-top: 3.1rem; }
+
+.single-post #primary {
+  width: 73%;
+  border-right: 1px solid #e1e1e1;
+  padding-top: 3rem; }
+
+.single-post .entry-title {
+  background-color: #248A83;
+  position: absolute;
+  left: 0;
+  top: 10px;
+  padding: 1rem 0;
+  font-weight: 550;
+  max-width: 36rem;
+  text-align: start;
+  line-height: 2.5rem;
+  font-size: 2.1rem;
+  padding-right: 3rem; }
+
+.single-post .entry-header img {
+  width: 48rem;
+  height: auto; }
+
+.single-post .entry-header {
+  position: relative;
+  width: 48rem;
+  height: auto; }
+
+.single-post .entry-meta {
+  background-color: #248A83;
+  color: white;
+  font-family: "Novecentos", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0rem 1.5rem; }
+
+.single-post .site-main {
+  width: 95%; }
+
+.single-post .entry-content {
+  width: 770px;
+  margin-bottom: 1rem; }
+
+.single-post .comments-link a {
+  text-decoration: none;
+  color: white; }
+
+.single-post .entry-footer {
+  font-size: 1.1rem;
+  font-family: "Novecentos", sans-serif;
+  font-weight: 400; }
+  .single-post .entry-footer a {
+    color: #248A83;
+    text-decoration: none; }
+  .single-post .entry-footer .cat-links {
+    margin-right: 1.5rem; }
+
+.single-post .search-submit {
+  color: #248A83; }
+
+.single-post .sharing-button {
+  border: 1px solid black;
+  color: black;
+  background-color: transparent;
+  font-family: "Novecentos", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.8rem 1.7rem;
+  font-size: 0.9rem;
+  font-weight: 200;
+  border-radius: 0; }
+  .single-post .sharing-button i {
+    padding-right: .5rem; }
+
+.single-post .comments-title {
+  text-align: start;
+  font-weight: 600;
+  margin-top: 4rem;
+  margin-bottom: 1rem; }
+
+.single-post .comment-list {
+  margin-left: 0;
+  padding-left: 0; }
+
+.single-post .comment-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 1.5rem;
+  font-size: 1.2; }
+
+.single-post .comment-author-avatar {
+  margin-right: 2rem; }
+
+.single-post .comment-author cite {
+  font-style: normal;
+  font-weight: 700; }
+
+.single-post .comment-metadata {
+  color: grey; }
+  .single-post .comment-metadata a {
+    color: #248A83;
+    text-decoration: none; }
+
+.single-post .reply a {
+  text-decoration: none;
+  color: #248A83; }
+
+.single-post .comment-list li {
+  border-bottom: 1px solid #e1e1e1;
+  padding-top: 1.5rem; }
+
+.single-post .comment-content {
+  font-size: 1.2rem; }
+
+.single-post .comment-reply-title {
+  font-weight: 700;
+  font-size: 1.8rem;
+  text-transform: uppercase; }
+
+.single-post .submit {
+  background: #248A83;
+  text-decoration: none;
+  color: white;
+  font-family: "Novecentos", sans-serif;
+  padding: 0.75rem 1.5rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  border-radius: 0;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-shadow: none; }
+
+.single-post .comment-form textarea {
+  background-color: #f4f4f4; }
+
+.single-post .comment-form p:first-child, .single-post :last-child {
+  font-size: 1.2rem; }
+
+.single-post .comment-form-comment, .single-post .comment-form-author, .single-post .comment-form-email, .single-post .comment-form-url {
+  font-family: "Novecentos", sans-serif;
+  text-transform: uppercase; }
+  .single-post .comment-form-comment input, .single-post .comment-form-author input, .single-post .comment-form-email input, .single-post .comment-form-url input {
+    background-color: #f4f4f4;
+    width: 100%; }
+  .single-post .comment-form-comment span, .single-post .comment-form-author span, .single-post .comment-form-email span, .single-post .comment-form-url span {
+    color: red; }
+  .single-post .comment-form-comment label, .single-post .comment-form-author label, .single-post .comment-form-email label, .single-post .comment-form-url label {
+    display: block; }
+
+.single-post .comment-form-author, .single-post .comment-form-email {
+  float: left; }
+
+.single-post .comment-form-url {
+  clear: left; }
+
+.single-post .comment-form-url input {
+  width: 100%; }
+
+.single-post .comment-form-author {
+  margin-right: 1rem; }
+
+.single-product .site-branding h1 {
+  background: url(../../assets/images/logos/inhabitent-logo-tent.svg) no-repeat;
+  background-size: 50px 33px;
+  height: 33px;
+  width: 50px;
+  margin: 0; }
+
+.single-product .site-header a {
+  color: #248A83; }
+
+.single-product .site-header {
+  border-bottom: 1px solid #e1e1e1; }
+
+.single-product article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1120px;
+  padding-top: 6.5rem;
+  padding-bottom: 5rem; }
+
+.single-product .thumbnail-wrapper {
+  height: auto;
+  width: 250rem; }
+
+.single-product img {
+  height: auto;
+  width: 100%; }
+
+.single-product .sharing-button {
+  border: 1px solid black;
+  color: black;
+  background-color: transparent;
+  font-family: "Novecentos", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.8rem 1.7rem;
+  font-size: 0.9rem;
+  font-weight: 200;
+  border-radius: 0; }
+  .single-product .sharing-button i {
+    padding-right: .5rem; }
+
+.single-product .content-wrapper {
+  padding-left: 3rem;
+  position: relative;
+  bottom: 3rem; }
+
+.single-product .entry-title {
+  color: #d99054;
+  font-family: "Novecentos", sans-serif;
+  font-size: 2.8rem; }
+
+.single-product .price {
+  font-size: 1.5rem;
+  font-family: "Novecentos", sans-serif; }
+
+.single-product .p1 {
+  font-size: 1.1rem; }
+
+.single-product .search-submit {
+  color: #248A83; }
+
+.archive .site-branding h1 {
+  background: url(../../assets/images/logos/inhabitent-logo-tent.svg) no-repeat;
+  background-size: 50px 33px;
+  height: 33px;
+  width: 50px;
+  margin: 0; }
+
+.archive .site-header a {
+  color: #248A83; }
+
+.archive .site-header {
+  border-bottom: 1px solid #e1e1e1; }
+
+.archive .site-content {
+  padding-top: 3rem; }
+
+.archive .site-main {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1120px; }
+
+.archive .page-header {
+  text-align: center;
+  font-family: "Novecentos", sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 1.1rem; }
+
+.archive .product-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 1rem; }
+  .archive .product-type a {
+    background: none;
+    color: #248A83;
+    font-size: 1.1rem; }
+
+.archive .products-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  padding: 3rem 0;
+  border-top: 1px dashed #c8c8c8; }
+
+.archive .product-item {
+  border: 1px solid #e1e1e1; }
+
+.archive .thumbnail-wrapper {
+  height: 250px;
+  position: relative;
+  overflow: hidden; }
+  .archive .thumbnail-wrapper img {
+    position: absolute;
+    border-bottom: 5px solid #e1e1e1;
+    left: -23%;
+    width: auto;
+    height: 250px;
+    max-width: none; }
+
+.archive .search-submit {
+  color: #248A83; }
+
+.archive .item-info {
+  height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .archive .item-info h1 {
+    font-size: 1.1rem;
+    display: inline;
+    font-weight: 500; }
+  .archive .item-info p {
+    margin-top: 1.2rem; }
+
+.archive .taxonomy-description {
+  font-family: "Merriweather", serif;
+  letter-spacing: normal;
+  text-transform: none;
+  font-size: 1.2rem;
+  padding-bottom: 1rem; }
+
+.category a, .tag a {
+  text-decoration: none; }
+
+.category .site-content, .tag .site-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1120px;
+  padding-top: 3.1rem; }
+
+.category .search-submit, .tag .search-submit {
+  color: #248A83; }
+
+.category #primary, .tag #primary {
+  width: 73%;
+  border-right: 1px solid #e1e1e1;
+  margin-bottom: 3rem; }
+
+.category .page-header, .tag .page-header {
+  border-bottom: 1px solid #e1e1e1;
+  text-align: left;
+  margin-bottom: 4rem;
+  width: 99%; }
+
+.category .entry-title, .tag .entry-title {
+  background-color: #248A83;
+  position: absolute;
+  left: 0;
+  top: 10px;
+  padding: 1rem 0;
+  font-weight: 550;
+  max-width: 36rem;
+  text-align: start;
+  line-height: 2.5rem;
+  font-size: 2.1rem;
+  padding-right: 3rem; }
+  .category .entry-title a, .tag .entry-title a {
+    color: white; }
+
+.category .entry-header, .tag .entry-header {
+  position: relative;
+  width: 48rem;
+  height: auto; }
+
+.category .entry-header img, .tag .entry-header img {
+  width: 48rem;
+  height: auto; }
+
+.category .entry-meta, .tag .entry-meta {
+  background-color: #248A83;
+  color: white;
+  font-family: "Novecentos", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0rem 1.5rem; }
+
+.category .read-more, .tag .read-more {
+  border: 1px solid black;
+  color: black;
+  background-color: transparent;
+  font-family: "Novecentos", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.8rem 1.1rem;
+  font-size: 0.9rem; }
+
+.category .site-main, .tag .site-main {
+  width: 95%; }
+
+.category .entry-content, .tag .entry-content {
+  width: auto; }
+
+.search a {
+  text-decoration: none; }
+
+.search .site-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1120px;
+  padding-top: 3.1rem; }
+
+.search .site-branding h1 {
+  background: url(../../assets/images/logos/inhabitent-logo-tent.svg) no-repeat;
+  background-size: 50px 33px;
+  height: 33px;
+  width: 50px;
+  margin: 0; }
+
+.search .site-header a {
+  color: #248A83; }
+
+.search .site-header {
+  border-bottom: 1px solid #e1e1e1; }
+
+.search .page-header h1 {
+  text-transform: uppercase;
+  font-family: "Novecentos", sans-serif;
+  font-size: 2.4rem; }
+
+.search .page-header {
+  border-bottom: 1px solid #e1e1e1;
+  width: 48rem;
+  margin-bottom: 3rem; }
+
+.search #primary {
+  width: 73%;
+  border-right: 1px solid #e1e1e1;
+  padding-bottom: 3rem; }
+
+.search .entry-header a {
+  color: #248a83;
+  text-decoration: none; }
+
+.search article {
+  height: 15rem; }
+
+.search .entry-header {
+  height: auto;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left; }
+
+.search .entry-title {
+  margin: 0; }
+
+.search .read-more {
+  border: 1px solid black;
+  color: black;
+  background-color: transparent;
+  font-family: "Novecentos", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.8rem 1.1rem;
+  font-size: 0.9rem; }
+
+.search .site-main {
+  width: 90%; }
+
+.search .search-submit {
+  color: #248A83; }
+
+.error404 a {
+  text-decoration: none; }
+
+.error404 .site-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1120px;
+  padding-top: 3.1rem; }
+
+.error404 .site-branding h1 {
+  background: url(../../assets/images/logos/inhabitent-logo-tent.svg) no-repeat;
+  background-size: 50px 33px;
+  height: 33px;
+  width: 50px;
+  margin: 0; }
+
+.error404 .site-header a {
+  color: #248A83; }
+
+.error404 .site-header {
+  border-bottom: 1px solid #e1e1e1; }
+
+.error404 .search-submit {
+  color: #248A83; }
+
+.error404 #primary {
+  width: 73%;
+  border-right: 1px solid #e1e1e1;
+  padding-bottom: 3rem; }
+
+.error404 .page-title {
+  font-family: "Novecentos", sans-serif;
+  text-transform: uppercase;
+  font-size: 2.4rem; }
+
+.error404 .page-content p {
+  font-size: 1.2rem; }
+
+.error404 .widgettitle {
+  text-align: left;
+  font-size: 1.5rem;
+  letter-spacing: normal;
+  font-weight: bold;
+  color: #2f1339;
+  margin-bottom: 0; }
+
+.error404 ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0; }
+  .error404 ul a {
+    color: #248A83; }
