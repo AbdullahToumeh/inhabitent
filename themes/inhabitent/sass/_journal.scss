@@ -1,0 +1,113 @@
+.blog {
+
+    a {
+        text-decoration: none;
+    }
+    .site-content {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1120px;
+        padding-top: 3.1rem;
+    }
+
+    .site-branding h1 {
+        background: url(../../assets/images/logos/inhabitent-logo-tent.svg) no-repeat;
+        background-size: 50px 33px;
+        height: 33px;
+        width: 50px;
+        margin: 0;
+    }
+
+    .site-header a {
+        color: #248A83;
+        
+    }
+
+    .site-header {
+        border-bottom: 1px solid #e1e1e1;
+    }
+
+    #primary {
+        width: 73%;
+        border-right: 1px solid #e1e1e1;
+        padding-top: 3rem;
+    }
+
+    .site-main {
+        width: 95%;
+    }
+
+    .search-submit {
+        color: #248A83;
+    }
+
+    .read-more {
+        border: 1px solid black;
+        color: black;
+        background-color: transparent;
+        font-family: "Novecentos", sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 0.8rem 1.1rem;
+        font-size: 0.9rem;
+    }
+
+    .entry-title {
+        background-color: #248A83;
+        position: absolute;
+        left: 0;
+        top: 10px;
+        padding: 1rem 0;
+        font-weight: 550;
+        max-width: 36rem;
+        text-align: start;
+        line-height: 2.5rem;
+        font-size: 2.1rem;
+        padding-right: 3rem;
+    }
+
+    .entry-meta {
+        background-color: #248A83;
+        color: white;
+        font-family: "Novecentos", sans-serif;
+        text-transform: uppercase;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 0rem 1.5rem;
+    }
+
+    .entry-title a {
+        position: relative;
+        left: 1rem;
+    }
+
+    .entry-header {
+        position: relative;
+        width: 48rem;
+        height: auto
+    }
+
+    .entry-title a {
+        color: white;
+    }
+
+    .entry-header img {
+        width: 48rem;
+        height: auto;
+    }
+
+    .entry-content {
+        width: auto;
+    }
+
+    .entry-content p {
+        font-size: 1.2rem;
+    }
+
+ 
+
+
+
+}

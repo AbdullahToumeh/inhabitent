@@ -1,0 +1,112 @@
+.archive {
+    .site-branding h1 {
+        background: url(../../assets/images/logos/inhabitent-logo-tent.svg) no-repeat;
+        background-size: 50px 33px;
+        height: 33px;
+        width: 50px;
+        margin: 0;
+    }
+
+    .site-header a {
+        color: #248A83;
+        
+    }
+
+    .site-header {
+        border-bottom: 1px solid #e1e1e1;
+    }
+
+    .site-content {
+        padding-top: 3rem;
+    }
+
+    .site-main {
+        margin-right: auto;
+        margin-left: auto;
+        width: 1120px;
+    }
+
+    .page-header {
+        text-align: center;
+        font-family: "Novecentos", sans-serif;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-size: 1.1rem;
+
+    }
+
+    .product-type {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 1rem;
+        a {
+            background: none;
+            color: #248A83;
+            font-size: 1.1rem;
+        }
+    }
+
+
+    .products-grid {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 1rem;
+        padding: 3rem 0;
+        border-top: 1px dashed #c8c8c8;
+    }
+
+    .product-item {
+        border:1px solid #e1e1e1;
+        
+    }
+
+    .thumbnail-wrapper {
+        height: 250px;
+        position: relative;
+        overflow: hidden;
+        img {
+            position: absolute;
+            border-bottom: 5px solid #e1e1e1;
+            left: -23%;
+            width: auto;
+            height: 250px;
+            max-width: none;
+        }   
+    }
+
+    .search-submit {
+        color: #248A83;
+    }
+
+    .item-info {
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h1 {
+            font-size: 1.1rem;
+            display: inline;
+            font-weight: 500;
+        }
+        p {
+            margin-top: 1.2rem;
+        }
+
+    }
+
+    .taxonomy-description  {
+        font-family: "Merriweather", serif;
+        letter-spacing: normal;
+        text-transform: none;
+        font-size: 1.2rem;
+        padding-bottom: 1rem;
+
+    }
+
+
+
+
+
+
+    
+}

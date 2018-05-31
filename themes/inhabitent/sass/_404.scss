@@ -1,0 +1,72 @@
+.error404 {
+    a {
+        text-decoration: none;
+    }
+    .site-content {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1120px;
+        padding-top: 3.1rem;
+    }
+
+    .site-branding h1 {
+        background: url(../../assets/images/logos/inhabitent-logo-tent.svg) no-repeat;
+        background-size: 50px 33px;
+        height: 33px;
+        width: 50px;
+        margin: 0;
+    }
+
+    .site-header a {
+        color: #248A83;
+        
+    }
+
+    .site-header {
+        border-bottom: 1px solid #e1e1e1;
+    }
+
+    .search-submit {
+        color: #248A83;
+    }
+
+    #primary {
+        width: 73%;
+        border-right: 1px solid #e1e1e1;
+        padding-bottom: 3rem;
+    }
+
+    .page-title {
+        font-family: "Novecentos", sans-serif;
+        text-transform: uppercase;
+        font-size: 2.4rem;
+    }
+
+    .page-content p {
+        font-size: 1.2rem;
+    }
+
+    .widgettitle  {
+        text-align: left;
+        font-size: 1.5rem;
+        letter-spacing: normal;
+        font-weight: bold;
+        color: #2f1339;
+        margin-bottom: 0;
+        
+    }
+
+    ul {
+        list-style-type:none;
+        padding-left: 0;
+        margin-left: 0;
+        a{
+            color: #248A83;
+
+        }
+    }
+
+
+
+}

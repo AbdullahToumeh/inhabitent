@@ -1,0 +1,83 @@
+.single-product {
+    .site-branding h1 {
+        background: url(../../assets/images/logos/inhabitent-logo-tent.svg) no-repeat;
+        background-size: 50px 33px;
+        height: 33px;
+        width: 50px;
+        margin: 0;
+    }
+
+    .site-header a {
+        color: #248A83;
+        
+    }
+
+    .site-header {
+        border-bottom: 1px solid #e1e1e1;
+    }
+
+
+    article {
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        width: 1120px;
+        padding-top: 6.5rem;
+        padding-bottom: 5rem;
+    }
+
+    .thumbnail-wrapper {
+        height: auto;
+        width: 250rem;
+        
+
+    }
+
+    img {
+        height: auto;
+        width: 100%;
+    }
+
+    .sharing-button {
+        border: 1px solid black;
+        color: black;
+        background-color: transparent;
+        font-family: "Novecentos", sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 0.8rem 1.7rem;
+        font-size: 0.9rem;
+        font-weight: 200;
+        border-radius: 0;
+        i {
+            padding-right: .5rem;
+        }
+    }
+
+    .content-wrapper {
+        padding-left: 3rem;
+        position: relative;
+        bottom:3rem;
+    }
+
+    .entry-title {
+        color: #d99054;
+        font-family: "Novecentos", sans-serif;
+        font-size: 2.8rem;       
+    }
+
+    .price {
+        font-size: 1.5rem;
+        font-family: "Novecentos", sans-serif;
+    }
+
+    .p1 {
+        font-size: 1.1rem;
+    }
+
+    .search-submit {
+        color: #248A83;
+    }
+  
+
+}

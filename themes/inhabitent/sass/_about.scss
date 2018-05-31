@@ -1,0 +1,31 @@
+.entry-header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.entry-header h1 {
+    color: white;
+    text-transform: uppercase;
+    font-family: "Novecentos", sans-serif;
+    font-size: 3rem;
+}
+
+.entry-content  {
+    margin-left:auto;
+    margin-right: auto;
+    width: 785px;
+    margin-bottom: 60px;
+}
+
+.entry-content p {
+    font-size: 1.2rem;
+}
+
+.entry-content h2 {
+    color: #2f1339;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}

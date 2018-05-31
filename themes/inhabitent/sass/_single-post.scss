@@ -1,0 +1,245 @@
+.single-post {
+    
+    .site-branding h1 {
+        background: url(../../assets/images/logos/inhabitent-logo-tent.svg) no-repeat;
+        background-size: 50px 33px;
+        height: 33px;
+        width: 50px;
+        margin: 0;
+    }
+
+    .site-header a {
+        color: #248A83;
+        
+    }
+
+    .site-header {
+        border-bottom: 1px solid #e1e1e1;
+    }
+
+    .site-content {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1120px;
+        padding-top: 3.1rem;
+    }
+
+    #primary {
+        width: 73%;
+        border-right: 1px solid #e1e1e1;
+        padding-top: 3rem;
+    }
+
+    .entry-title {
+        background-color: #248A83;
+        position: absolute;
+        left: 0;
+        top: 10px;
+        padding: 1rem 0;
+        font-weight: 550;
+        max-width: 36rem;
+        text-align: start;
+        line-height: 2.5rem;
+        font-size: 2.1rem;
+        padding-right: 3rem;
+    }
+
+
+    .entry-header img {
+        width: 48rem;
+        height: auto;
+    }
+
+    .entry-header {
+        position: relative;
+        width: 48rem;
+        height: auto
+    }
+
+    .entry-meta {
+        background-color: #248A83;
+        color: white;
+        font-family: "Novecentos", sans-serif;
+        text-transform: uppercase;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 0rem 1.5rem;
+    }
+
+    .site-main {
+        width: 95%;
+    }
+
+    .entry-content {
+        width: 770px;
+        margin-bottom: 1rem;
+    }
+
+    .comments-link a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .entry-footer  {
+
+        a {
+        color: #248A83;
+        text-decoration: none;
+        }
+
+        font-size: 1.1rem;
+        font-family: "Novecentos", sans-serif;
+        font-weight: 400;
+
+        .cat-links {
+            margin-right: 1.5rem;
+        }
+
+
+    }
+
+    .search-submit {
+        color: #248A83;
+    }
+
+
+    .sharing-button {
+        border: 1px solid black;
+        color: black;
+        background-color: transparent;
+        font-family: "Novecentos", sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 0.8rem 1.7rem;
+        font-size: 0.9rem;
+        font-weight: 200;
+        border-radius: 0;
+        i {
+            padding-right: .5rem;
+        }
+    }
+
+   
+
+    .comments-title  {
+        text-align: start;
+        font-weight: 600;
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    .comment-list {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .comment-body {
+        display: flex;
+        padding-bottom: 1.5rem;
+        font-size:1.2;
+    }
+
+    .comment-author-avatar {
+        margin-right: 2rem;
+    }
+
+    .comment-author cite {
+        font-style: normal;
+        font-weight: 700;
+    }
+
+    .comment-metadata {
+        color: grey;
+        a {
+            color: #248A83;
+            text-decoration: none; 
+        }
+    }
+
+    .reply a {
+        text-decoration: none;
+        color:  #248A83;
+    }
+
+    .comment-list li {
+        border-bottom: 1px solid #e1e1e1;
+        padding-top: 1.5rem;
+
+    }
+
+    .comment-content {
+        font-size: 1.2rem;
+    }
+
+    .comment-reply-title {
+        font-weight: 700;
+        font-size: 1.8rem;
+        text-transform: uppercase;
+
+
+    }
+
+    .submit {
+        background: #248A83;
+        text-decoration: none;
+        color: white;
+        font-family: "Novecentos", sans-serif;
+        padding: 0.75rem 1.5rem;
+        text-transform: uppercase;
+        font-size: 1rem;
+        border-radius: 0;
+        border: none;
+        box-shadow: none;
+        text-shadow: none;
+        
+    }
+
+    .comment-form {
+        textarea {
+        background-color: #f4f4f4;
+    }
+
+
+    }
+    .comment-form p:first-child,:last-child {
+        font-size: 1.2rem;
+    }
+
+    .comment-form-comment, .comment-form-author, .comment-form-email, .comment-form-url {
+        font-family: "Novecentos", sans-serif;
+        text-transform: uppercase;
+        input {
+            background-color: #f4f4f4;
+            width: 100%;
+        }
+
+        span {
+            color: red;
+        }
+        label {
+            display: block;
+        }
+    }
+
+    .comment-form-author, .comment-form-email {
+        float: left;
+    }
+
+    .comment-form-url {
+        clear: left;
+    }
+
+    .comment-form-url input{
+        width: 100%;
+
+    }
+
+    .comment-form-author {
+        margin-right: 1rem;
+    }
+
+
+
+}
